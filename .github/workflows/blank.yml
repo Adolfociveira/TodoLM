@@ -1,0 +1,175 @@
+# This is a basic workflow to help you get started with Actions
+
+name: CI
+<html>
+    <head>
+        <link rel="stylesheet" href="Horario.css">
+    </head>
+<table border= "10px" align="center">
+    <thead>
+      <caption>
+        HORARIO MAÑANA
+      </caption>
+      <th>HORA</th>
+      <th>LUNES</th>
+      <th>MARTES</th>
+      <th>MIERCOLES</th>
+      <th>HORA</th>
+      <th>JUEVES</th>
+      <th>VIERNES</th>
+    </thead>
+    <tbody>
+      <tr>
+        <td bgcolor="857c77">8:30 - 9:20</td>
+        <td bgcolor="2dceff">Sistemas</td>
+        <td bgcolor="96e98b">Base de Datos</td>
+        <td bgcolor="ec8c78">Programacion</td>
+        <td bgcolor="857c77">8:45 - 9:35</td>
+        <td bgcolor="ec8c78">Programacion</td>
+        <td bgcolor="f1f374">Linguaxe de marcas</td>
+      </tr>
+      <tr>
+        <td bgcolor="857c77">9:20 - 10:10</td>
+        <td bgcolor="2dceff">Sistemas</td>
+        <td bgcolor="96e98b">Base de Datos</td>
+        <td bgcolor="ec8c78">Programacion</td>
+        <td bgcolor="857c77">9:35 - 10:25</td>
+        <td bgcolor="ec8c78">Programacion</td>
+        <td bgcolor="ec8c78">Programacion</td>
+      </tr>
+      <tr>
+        <td bgcolor="857c77">10:10 - 11:00</td>
+        <td bgcolor="bb71ec">FOL</td>
+        <td bgcolor="bb71ec">FOL</td>
+        <td bgcolor="96e98b">Base de Datos</td>
+        <td bgcolor="857c77">10:25 - 11:15</td>
+        <td bgcolor="f1f374">Linguaxe de marcas</td>
+        <td bgcolor="ec8c78">Programacion</td>
+      </tr>
+      <tr>
+        <td bgcolor="857c77">11:00 - 11:50</td>
+        <td bgcolor="96e98b">Base de Datos</td>
+        <td bgcolor="2dceff">Sistemas</td>
+        <td bgcolor="96e98b">Base de Datos</td>
+        <td rowspan="2" bgcolor="857c77">11:15 - 12:00</td>
+        <td rowspan="2" bgcolor="20d4a7">DESCANSO</td>
+        <td rowspan="2" bgcolor="20d4a7">DESCANSO</td>
+      </tr>
+      <tr>
+        <td bgcolor="857c77">11:50 - 12:10</td>
+        <td bgcolor="20d4a7"> DESCANSO</td>
+        <td bgcolor="20d4a7"> DESCANSO</td>
+        <td bgcolor="20d4a7"> DESCANSO</td>
+        
+      </tr>
+      <tr>
+        <td bgcolor="857c77">12:10 - 13:00</td>
+        <td bgcolor="e4558c">Contornos</td>
+        <td bgcolor="f1f374">Linguaxe de Marcas</td>
+        <td bgcolor="96e98b">Base de Datos</td>
+        <td bgcolor="857c77">12:00 - 12:50</td>
+        <td bgcolor="e4558c">Contornos</td>
+        <td bgcolor="bb71ec">FOL</td>
+      </tr>
+      <tr>
+        <td bgcolor="857c77">13:00 - 13:50</td>
+        <td bgcolor="ec8c78">Programacion</td>
+        <td bgcolor="ec8c78">Programacion</td>
+        <td bgcolor="e4558c">Contornos</td>
+        <td bgcolor="857c77">12:50 - 13:40</td>
+        <td bgcolor="e4558c">Contornos</td>
+        <td bgcolor="2dceff">Sistemas</td>
+      </tr>
+      <tr>
+        <td bgcolor="857c77">13:50 - 14:40</td>
+        <td bgcolor="f1f374">Linguaxe de marcas</td>
+        <td bgcolor="ec8c78">Programacion</td>
+        <td bgcolor="f1f374">Linguaxe de marcas</td>
+        <td bgcolor="857c77">13:40 - 14:30</td>
+        <td bgcolor="96e98b">Base de Datos</td>
+        <td bgcolor="2dceff">Sistemas</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td colspan="7" align="center" bgcolor="20d4a7">Este horario solo se aplica para las mañanas </td>
+      </tr>
+    </tfoot>
+  </table>
+  <table border= "10px" align="center">
+    <thead>
+      <caption>
+        HORARIO TARDE
+      </caption>
+      <th>HORA</th>
+      <th>JUEVES</th>
+     
+    </thead>
+    <tbody>
+      <tr>
+        <td bgcolor="857c77">16:00 - 16:50</td>
+        <td bgcolor="bb71ec">FOL</td>
+       
+      </tr>
+      <tr>
+        <td bgcolor="857c77">16:50 - 17:40</td>
+        <td bgcolor="2dceff">Sistemas</td>
+       
+      </tr>
+      <tr>
+        <td bgcolor="857c77">17:40 - 18:30</td>
+        <td bgcolor="2dceff">Sistemas</td>
+        
+      </tr>
+     
+    </tbody>
+    <tfoot>
+      <tr>
+        <td colspan="7" align="center" bgcolor="20d4a7">   Este horario solo aplica para la tarde   </td>
+      </tr>
+    </tfoot>
+  </table>
+  <table border= "10px" align="center">
+    <thead>
+      <caption>
+        Profesores
+      </caption>
+      <th>Profesor</th>
+      <th>Asignatura</th>
+     
+    </thead>
+    <tbody>
+      <tr>
+        <td bgcolor="bb71ec">Luisa Areán Taboada</td>
+        <td bgcolor="bb71ec">FOL</td>
+       
+      </tr>
+      <tr>
+        <td bgcolor="2dceff">Miguel Francisco Pérez Tumbeiro</td>
+        <td bgcolor="2dceff">Sistemas</td>
+       
+      </tr>
+      <tr>
+        <td bgcolor="96e98b">José Rey Cid</td>
+        <td bgcolor="96e98b">Base de Datos</td>
+        
+      </tr>
+      <tr>
+        <td bgcolor="ec8c78">Amador Abelleira Gomez</td>
+        <td bgcolor="ec8c78">Programacion</td>
+       
+      </tr>
+      <tr>
+        <td bgcolor="f1f374">Silvia Lorenzo Sayáns</td>
+        <td bgcolor="f1f374">Linguaxe de marcas</td>
+       
+      </tr>
+      <tr>
+        <td bgcolor="e4558c">Ángel José Diéguez González</td>
+        <td bgcolor="e4558c">Contornos</td>
+        
+      </tr>
+     
+    </tbody>
+  </table>
+</html>
