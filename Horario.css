@@ -1,0 +1,21 @@
+caption {
+  margin-top: 30px;
+    padding: 0px;
+    font-size: 60px;
+    color:#032aa8;
+    text-shadow: 1px 2px 0 #858585;
+    font-family: Purisa;
+  }
+  th {
+    font-size: 35px;
+    background-color: #055e18;
+    color: #f1f50c;
+    margin: 1em;
+  
+  }
+  td {
+    font-size: 30px;
+    text-align: center;
+    margin: 1em;
+    padding: 15px;
+  }
